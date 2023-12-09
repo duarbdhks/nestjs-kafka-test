@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2019",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "paths": {
+      "@src/*": ["./src/*"],
+      "@root/*": ["./*"],
+      "@common/*": ["common/*"],
+      "@shared/*": ["src/shared/*"]
+    },
+    "incremental": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  }
+}
